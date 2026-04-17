@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: SaveBot-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    envVars:
+      - key: "8565628767:AAGXVQBFwwDqRcDG4QTa45oSnOyj1B9Wbq8"
+        sync: false
